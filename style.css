@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /* Faz reset dessas proprieadades.*/
+
+body::-webkit-scrollbar{
+}
+
+div {
+    display: inline;
+}
+
+.insta {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.insta header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 94px;
+    min-height: 94px;
+    padding: 0 20px;
+}
+
+.icon {
+    width: auto;
+    height: 60px;
+    padding: 0 20px;
+}
