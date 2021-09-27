@@ -8,10 +8,6 @@ body::-webkit-scrollbar{
     width: 3px;
 }
 
-div {
-    display: inline;
-}
-
 .insta {
     display: flex;
     flex-direction: column;
@@ -32,7 +28,6 @@ div {
     justify-content: space-between;
     height: 94px;
     min-height: 94px;
-    
 }
 
 .insta header {
@@ -40,9 +35,7 @@ div {
     top: 0;
     right: 0;
     left: 0;
-    border-bottom:1px solid rgba(0, 0, 0, 0.4);
     padding: 10px 20px 0 20px;
-    
 }
 
 .insta footer {
@@ -51,18 +44,37 @@ div {
     right: 0;
     left: 0;
     border-top:1px solid rgba(0, 0, 0, 0.4);
-
 }
 
 .image-post {
     width: 100%;
     align-items: center;
     margin: 15px 0;
-    
-
 }
 
 #image-profile-end {
     border-radius: 50%;
 }
+.story {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 110px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.4);
+}
+
+.story-image {
+  width: 150px;
+  height: auto;
+/*   position: static;
+ */  text-align: center;
+  border-radius: 50%;
+}
+
+.story-image::after {
+    content: attr(data-title); /* estilo que coloco a legenda no lugar */
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+  }
 
