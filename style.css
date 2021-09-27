@@ -1,3 +1,12 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    max-width: 360px;
+    max-height: 640px;
+}
+
 body::-webkit-scrollbar{
     width: 3px;
 }
@@ -10,7 +19,7 @@ body::-webkit-scrollbar{
 
 .icon {
     width: auto;
-    height: 60px;
+    height: 22px;
     padding: 0 20px;
     align-items: center;
 }
@@ -29,7 +38,8 @@ body::-webkit-scrollbar{
     top: 0;
     right: 0;
     left: 0;
-    padding: 10px 20px 0 20px;
+    padding: 0;
+    border-bottom:1px solid rgba(0, 0, 0, 0.4);
 }
 
 .insta footer {
@@ -40,14 +50,23 @@ body::-webkit-scrollbar{
     border-top:1px solid rgba(0, 0, 0, 0.4);
 }
 
-.image-post {
+.post {
     width: 100%;
     align-items: center;
-    margin: 15px 0;
+    margin: 0 0 15px;
 }
 
 #image-profile-end {
     border-radius: 50%;
+}
+.story figcaption {
+    letter-spacing: .01em;
+    color: #262626;
+    display: block;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .story {
@@ -59,10 +78,18 @@ body::-webkit-scrollbar{
 }
 
 .story-image {
-   text-align: center;
-   border-radius: 50%;
-   
+    text-align: center;
+    border-radius: 50%;
+    width: 120px;
+    height: auto;   
 }
 
+.post-image {
+    text-align: center;
+    border-radius: 50%;
+    width: 80px;
+    height: auto;  
+    padding: 20px 20px 5px;
+ }
 
 
