@@ -17,11 +17,14 @@ div {
     height: 100vh;
 }
 
-.insta header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+.icon {
+    width: auto;
+    height: 60px;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.insta header, .insta footer {
     background-color: #fff;
     display: flex;
     align-items: center;
@@ -29,12 +32,23 @@ div {
     height: 94px;
     min-height: 94px;
     padding: 10px 20px 0 20px;
+}
+
+.insta header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
     border-bottom:1px solid rgba(0, 0, 0, 0.4);
 }
 
-.icon {
-    width: auto;
-    height: 60px;
-    padding: 0 20px;
-    align-items: center;
+.insta footer {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    border-top:1px solid rgba(0, 0, 0, 0.4);
+
 }
+
+
