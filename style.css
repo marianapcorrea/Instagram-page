@@ -5,6 +5,7 @@ body {
 } /* Faz reset dessas proprieadades.*/
 
 body::-webkit-scrollbar{
+    width: 3px;
 }
 
 div {
