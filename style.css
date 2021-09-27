@@ -31,7 +31,7 @@ div {
     justify-content: space-between;
     height: 94px;
     min-height: 94px;
-    padding: 10px 20px 0 20px;
+    
 }
 
 .insta header {
@@ -40,15 +40,28 @@ div {
     right: 0;
     left: 0;
     border-bottom:1px solid rgba(0, 0, 0, 0.4);
+    padding: 10px 20px 0 20px;
+    
 }
 
 .insta footer {
     position: fixed;
-    bottom: 10px;
+    bottom: 0;
     right: 0;
     left: 0;
     border-top:1px solid rgba(0, 0, 0, 0.4);
 
 }
 
+.image-post {
+    width: 100%;
+    align-items: center;
+    margin: 15px 0;
+    
+
+}
+
+#image-profile-end {
+    border-radius: 50%;
+}
 
