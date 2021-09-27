@@ -28,11 +28,13 @@ div {
     justify-content: space-between;
     height: 94px;
     min-height: 94px;
-    padding: 0 20px;
+    padding: 10px 20px 0 20px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.4);
 }
 
 .icon {
     width: auto;
     height: 60px;
     padding: 0 20px;
+    align-items: center;
 }
