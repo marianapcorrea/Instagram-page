@@ -10,9 +10,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 53px;
-    min-height: 53px;
+    height: 54px;
+    min-height: 54px;
+    
 }
+
+
 
 .insta header {
     position: fixed;
@@ -20,7 +23,7 @@
     right: 0;
     left: 0;
     padding: 0 20px;
-    border-bottom:1px solid rgba(0, 0, 0, 0.4);
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
 }
 
 .insta footer {
@@ -28,7 +31,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    border-top:1px solid rgba(0, 0, 0, 0.4);
+    border-top:1px solid rgba(0, 0, 0, 0.2) ;
 }
 
 #header-profile, .story-image {
@@ -36,14 +39,22 @@
 }
 
 .story {
-    position: static;
+    position: relative;
     display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    border-bottom:1px solid rgba(0, 0, 0, 0.4);
     flex: 1;
-    padding: 62px 0 5px;
+    margin: 78px 16px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 612px;
+    padding: 16px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #fff;
+    align-items: center;
+}
 
+.story section {
+    height: 84px;
+    overflow: auto;
 }
 
 .story figcaption {
@@ -67,11 +78,28 @@
     border-radius: 50%;
     width: 66px;
     height: auto;  
-
-    
+ 
      
 }
+.botao {
+    width: 72;
+    padding: 0 6px;
+}
 
-.insta main {
-    f
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 614px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+.post {
+    display: block;
+}
+.post-image {
+    text-align: center;
+    border-radius: 50%;
+    width: 42px;
+    height: auto; 
 }
