@@ -72,15 +72,9 @@
     text-align: center;
     border-radius: 50%;
     width: 66px;
-/*     height: auto; */
-    padding: 0 4px;  
- 
-     
+    height: auto;
+    padding: 0 4px;      
 }
-/* .botao {
-    width: 72px;
-    padding: 0 6px;
-} */
 
 main {
     margin-left: auto;
@@ -99,3 +93,9 @@ main {
     width: 42px;
     height: auto; 
 }
+
+.user-id {
+    display: flex;
+    
+}
+
